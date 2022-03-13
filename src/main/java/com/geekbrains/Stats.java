@@ -16,6 +16,8 @@ public class Stats<T extends Number> {
         return sum / nums.length;
     }
 
+
+
     public boolean isSameAvg(Stats<? extends Number> another) {
         return Math.abs(this.avg() - another.avg()) < 0.0001;
     }
